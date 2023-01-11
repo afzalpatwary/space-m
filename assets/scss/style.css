@@ -1,0 +1,75 @@
+/** @Main scss for (Template/Project Name) @project     - Project Name @author      -  @created_by  - kawsar bin siraj @created_at  -  @modified_by - */
+/* fonts import */
+/* fonts import -END */
+/* reset, root */
+* { padding: 0; margin: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { background-color: var(--theme-dark); overflow-x: hidden !important; font-family: 'Bakbak One', cursive; }
+
+:root { --theme-dark: #0B0B36; --dark: #00002F; --blue: #4577FA; --stormgrey: #A3A3C8; --skyblue: #42BCF3; --green: #3DC677; --pink: #FF505F; --yellow: #F8D092; --manatee: #7777A4; }
+
+/* reset, root - END */
+@media (min-width: 1500px) { .container { max-width: 1444px; } }
+
+/* helper , base classes */
+.text-clr-blue { color: var(--blue); }
+
+.text-clr-pink { color: var(--pink); }
+
+.text-clr-theme-dark { color: var(--theme-dark); }
+
+.text-clr-dark { color: var(--dark); }
+
+.text-clr-stormgrey { color: var(--stormgrey); }
+
+.text-clr-manatee { color: var(--manatee); }
+
+.text-clr-skyblue { color: var(--skyblue); }
+
+.text-clr-green { color: var(--green); }
+
+.text-clr-yellow { color: var(--yellow); }
+
+.bg-clr-blue { background-color: var(--blue); }
+
+.bg-clr-pink { background-color: var(--pink); }
+
+.bg-clr-dark { background-color: var(--dark); }
+
+.bg-clr-theme-dark { background-color: var(--theme-dark); }
+
+.bg-clr-stormgrey { background-color: var(--stormgrey); }
+
+.bg-clr-manatee { background-color: var(--manatee); }
+
+.bg-clr-skyblue { background-color: var(--skyblue); }
+
+.bg-clr-green { background-color: var(--green); }
+
+.bg-clr-yellow { background-color: var(--yellow); }
+
+.fs-14 { font-size: 14px; line-height: 22px; }
+
+.fs-30 { font-size: 30px; line-height: 40px; }
+
+.fs-36 { font-size: 36px; line-height: 46px; }
+
+.fs-54 { font-size: 54px; line-height: 3.37rem; }
+
+.fw-medium { font-weight: 500; }
+
+.fw-semi-bold { font-weight: 600; }
+
+.box-shadow { -webkit-box-shadow: 0px 15px 40px rgba(22, 8, 49, 0.1); box-shadow: 0px 15px 40px rgba(22, 8, 49, 0.1); }
+
+.box-shadow2 { -webkit-box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.05); box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.05); }
+
+.radius-10 { border-radius: 10px; }
+
+.radius-16 { border-radius: 16px; }
+
+p { font-family: 'Roboto', sans-serif; }
+
+.ff-roboto { font-family: 'Roboto', sans-serif; }
+
+/* helper , base classes  - END*/
